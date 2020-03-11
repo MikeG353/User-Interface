@@ -156,7 +156,8 @@ h5 {
 }
 
 /* Your code starts here! */
-/* nav {
+/* Navigation section*/
+nav {
     text-align: center;
 }
 nav a {
@@ -165,4 +166,48 @@ nav a {
     display: inline-block;
     width: 12.5%;
     margin: 0 auto;
-} */
+    height:38px;    
+}
+/* Header and Large img */
+header {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+h1 {
+    display: inline-block;
+    width: 50%;
+    font-size: 70px;   
+}
+.title img{
+    display: inline-block;
+    width:50%;
+    margin: 0 auto;
+}
+/* features and about */
+section:first-of-type {
+    width: 100%;
+}
+section:first-of-type div {
+    display: inline-block;
+    width:49%;
+    margin: 0 auto;
+}
+/* middle banner */
+.middle-img {
+    margin: 5% 0;
+    width: 100%;
+}
+/* services product and vision */
+section:last-of-type div {
+    display: inline-block;
+    width:31%;
+    margin: 0 10px 0 auto;
+}
+.contact {
+    text-justify: left;
+}
+footer {
+    margin: 5% 0;
+    text-align: center;
+}
