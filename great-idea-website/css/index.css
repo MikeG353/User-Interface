@@ -156,6 +156,10 @@ h5 {
 }
 
 /* Your code starts here! */
+body {
+    width: 80%;
+    margin: 0 auto;
+}
 /* Navigation section*/
 nav {
     text-align: center;
@@ -168,22 +172,28 @@ nav a {
     margin: 0 auto;
     height:38px;    
 }
+
+.logo {
+    vertical-align: middle;
+}
 /* Header and Large img */
 header {
-    display: inline-block;
-    width: 100%;
-    margin: 0 auto;
+    vertical-align: middle;
 }
-h1 {
+.title {
     display: inline-block;
     width: 50%;
-    font-size: 70px;   
+    font-size: 70px;
+    text-align: center;
 }
-.title img{
+h1 {
+    margin-bottom: 0;
+}
+button {
     display: inline-block;
-    width:50%;
-    margin: 0 auto;
-}
+    padding: 14px 40px;
+    background-color: white;
+    margin-top:0;
 /* features and about */
 section:first-of-type {
     width: 100%;
@@ -193,9 +203,11 @@ section:first-of-type div {
     width:49%;
     margin: 0 auto;
 }
+
+}
 /* middle banner */
 .middle-img {
-    margin: 5% 0;
+    margin: 2% 0;
     width: 100%;
 }
 /* services product and vision */
